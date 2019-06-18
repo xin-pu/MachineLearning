@@ -1,0 +1,4 @@
+{
+    "python.pythonPath": "Venv\\Scripts\\python.exe",
+    "git.ignoreLimitWarning": true
+}
