@@ -23,7 +23,7 @@ ynew=f2(xnew)
 print(xnew)
 print(ynew)
 
-# plt.plot(x, y, 'o', xnew, f(xnew), '-', xnew, f2(xnew), '--')
-# plt.legend(['data', 'linear', 'cubic'], loc='best')
-# plt.show()
+plt.plot(x, y, 'o', xnew, f(xnew), '-', xnew, f2(xnew), '--')
+plt.legend(['data', 'linear', 'cubic'], loc='best')
+plt.show()
 

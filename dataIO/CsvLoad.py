@@ -3,6 +3,7 @@ import sys
 
 class CsvLoad:
 
+    @classmethod
     def LoadData(filepath,delimiter=','):
         try:
             with open(filepath) as f:

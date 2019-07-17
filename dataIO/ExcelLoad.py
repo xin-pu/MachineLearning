@@ -3,6 +3,7 @@ from pprint import pprint
 
 class ExcelLoad:
 
+    @classmethod
     def LoadData(filepath,sheetName="Sheet1"):
         wb=xlrd.open_workbook(filepath)
         ws=wb.sheet_by_name(sheetName)
