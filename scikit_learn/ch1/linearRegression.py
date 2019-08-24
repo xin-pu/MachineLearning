@@ -3,6 +3,7 @@ import numpy as np
 from sklearn import linear_model
 import matplotlib.pyplot as plt
 
+
 X=[]
 Y=[]
 with open("e:/Document Code/Code Pensonal/MachineLearningGitHub/scikit_learn/ch1/data.csv",'r') as f:
