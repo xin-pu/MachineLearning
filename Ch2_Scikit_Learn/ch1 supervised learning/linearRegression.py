@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 X=[]
 Y=[]
-with open("e:/Document Code/Code Pensonal/MachineLearningGitHub/scikit_learn/ch1/data.csv",'r') as f:
+with open("Ch2_Scikit_Learn\ch1 supervised learning\data.csv",'r') as f:
     for line in f.readlines():
         xt,yt=[float(i) for i in line.split(',')]
         X.append(xt)

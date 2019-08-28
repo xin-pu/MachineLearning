@@ -9,7 +9,7 @@ housing_data = datasets.load_boston()
 
 X, Y = shuffle(housing_data.data, housing_data.target, random_state=7)
 
-
+print(X)
 num_traning = int(0.8*len(X))
 num_test = len(X)-num_traning
 
