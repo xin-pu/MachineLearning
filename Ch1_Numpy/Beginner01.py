@@ -57,6 +57,7 @@ print(b[...,1])
 print(b[:,:,1])
 print(b[:,1])
 
+print(111)
 newb=b.flatten()
 c=numpy.ravel(newb)
 print(c)
